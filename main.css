@@ -60,7 +60,7 @@ hr {
   letter-spacing: .03rem;
   font-size: 1.2rem;
   font-family: 'IBM Plex Serif', serif;
-  color: #92a3ab;
+  color: #000000;
 }
 
 .blog-posts .post .featured .featured-image img {
@@ -403,5 +403,7 @@ input[type=checkbox]{
 }
 
 .website_rights {
-  color: #fff;
+  color: black;
 }
+
+
