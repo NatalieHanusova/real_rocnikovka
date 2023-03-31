@@ -11,12 +11,12 @@ html {
 }
 
 a {
-  color: #3b7adf;
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #3b7adf;
+  color: black;
 }
 
 hr {
@@ -29,12 +29,12 @@ hr {
 
 .title,
 .subtitle {
-  color: white;
+  color: black;
 }
 
 .blog-posts {
   min-height: 100vh;
-  background: #191b1f;
+  background: #f2e6d9;
   padding-top: 4rem;
   padding-bottom: 10rem;
 }
@@ -48,7 +48,7 @@ hr {
 }
 
 .blog-posts .post .post-category {
-  color: #3b7adf;
+  color: black;
 }
 
 .blog-posts .post .post-title {
@@ -87,9 +87,10 @@ li {
 
 .navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #FFF0F5;
+    background-color: #dfbf9f;
     color: #000000;
 }
 
@@ -108,7 +109,7 @@ li {
 }
 
 .menu li:hover {
-    background-color: #FFF0F5;
+    background-color: #dfbf9f;
     border-radius: 5px;
     transition: 0.3s ease;
 }
@@ -122,7 +123,7 @@ li {
 }
 
 .dropdown {
-    background-color: #FFF0F5;
+    background-color: #dfbf9f;
     padding: 1em 0;
     position: absolute;
     display: none;
@@ -141,7 +142,7 @@ li {
 }
 
 .dropdown li:hover {
-    background-color: #FFF0F5;
+    background-color: #dfbf9f;
 }
 
 .services:hover .dropdown {
@@ -167,7 +168,7 @@ input[type=checkbox]{
     
     display:none;
     position: absolute;
-    background-color:#FFF0F5;
+    background-color:#dfbf9f;
     right: 0;
     left: 0;
     text-align: center;
@@ -178,7 +179,7 @@ input[type=checkbox]{
     .menu li:hover {
     
     display: inline-block;
-    background-color:#FFF0F5;
+    background-color:#dfbf9f;
     transition: 0.3s ease;
     
     }
@@ -210,7 +211,7 @@ input[type=checkbox]{
     
     .dropdown li:hover {
     
-    background-color: #FFF0F5;
+    background-color: #dfbf9f;
     
     }
     
@@ -304,7 +305,7 @@ input[type=checkbox]{
 }
 
 .footer_container {
-  background-color: #FFF0F5;
+  background-color: #dfbf9f;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
